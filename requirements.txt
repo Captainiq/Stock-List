@@ -3,3 +3,4 @@ pandas
 smartapi-python
 pyotp
 requests
+logzero
