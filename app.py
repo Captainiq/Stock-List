@@ -9,10 +9,10 @@ from SmartApi import SmartConnect
 # 1. API CONFIGURATION & LOGIN
 # ---------------------------------------------------------
 # Replace these with your actual credentials
-API_KEY = "KcWjppR6"
-CLIENT_ID = "M980160"
-PASSWORD = "Trade@9633"
-TOTP_SECRET = "3c024a2c-c709-4a9e-829a-a05ba5601079"  # Used to bypass manual OTP entry
+API_KEY = st.secrets["API_KEY"]
+CLIENT_ID = st.secrets["CLIENT_ID"]
+PASSWORD = st.secrets["PASSWORD"]
+TOTP_SECRET = st.secrets["TOTP_SECRET"]
 
 
 @st.cache_resource
